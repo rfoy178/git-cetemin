@@ -1,0 +1,1 @@
+<?phpnamespace App\Entidad;use Illuminate\Database\Eloquent\Model;use OwenIt\Auditing\Contracts\Auditable;class Entity extends Model implements Auditable{    use \OwenIt\Auditing\Auditable;    public static function getClass()    {        return get_class(new static);    }}
