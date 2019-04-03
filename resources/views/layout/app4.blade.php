@@ -598,6 +598,15 @@ License: You must have a valid license purchased only from themeforest(the above
                     </a>
                 </li>
 
+                <li class="nav-item start  ">
+                    <a href="{{route("Recursos")}}" class="nav-link nav-toggle">
+                        <i class="icon-calendar"></i>
+                        <span class="title">RRHH</span>
+                        <span class="arrow"></span>
+                    </a>
+                </li>
+
+
 
 
 
