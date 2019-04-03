@@ -598,21 +598,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     </a>
                 </li>
 
-                <li class="nav-item start  ">
-                    <a href="{{route("comedor.index")}}" class="nav-link nav-toggle">
-                        <i class="fa fa-cutlery"></i>
-                        <span class="title">Comedor AREQUIPA</span>
-                        <span class="arrow"></span>
-                    </a>
-                </li>
 
-                <li class="nav-item start  ">
-                    <a href="{{route("comedor.index")}}" class="nav-link nav-toggle">
-                        <i class="fa fa-cutlery"></i>
-                        <span class="title">prueba</span>
-                        <span class="arrow"></span>
-                    </a>
-                </li>
 
 
 
