@@ -155,7 +155,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     <span class="hidden-sm hidden-xs">Nuevo&nbsp;</span>&nbsp;
                 </button>
 
-                <!--
+
                  <ul class="dropdown-menu" role="menu">
                      <li>
                          <a href="javascript:;">
@@ -598,7 +598,13 @@ License: You must have a valid license purchased only from themeforest(the above
                     </a>
                 </li>
 
-
+                <li class="nav-item start  ">
+                    <a href="{{route("recursos.index")}}" class="nav-link nav-toggle">
+                        <i class="icon-calendar"></i>
+                        <span class="title">Recursos</span>
+                        <span class="arrow"></span>
+                    </a>
+                </li>
 
 
 
