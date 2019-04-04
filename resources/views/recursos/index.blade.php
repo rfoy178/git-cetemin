@@ -8,7 +8,7 @@
         <div class="portlet-title">
             <div class="caption">
                 <i class="icon-settings font-red"></i>
-                <span class="caption-subject font-red sbold uppercase">Light Table 1</span>
+                <span class="caption-subject font-red sbold uppercase">Personal de Planilla del Centro Tecnologico Minero</span>
             </div>
             <div class="actions">
                 <div class="btn-group btn-group-devided" data-toggle="buttons">
@@ -24,12 +24,14 @@
                 <table class="table table-hover table-light">
                     <thead>
                     <tr>
-                        <th> # </th>
-                        <th> First Name </th>
-                        <th> Last Name </th>
-                        <th> Username </th>
-                        <th> Status </th>
-                        <th>  </th>
+                        <th> DNI </th>
+                        <th> Nombre </th>
+                        <th> 2 Nombre </th>
+                        <th> Apellido Paterno </th>
+                        <th> Apellido Materno </th>
+                        <th> Fecha de Nacimiento </th>
+                        <th> Gerencia </th>
+                        <th> Sede </th>
 
                     </tr>
                     </thead>
@@ -38,12 +40,18 @@
                     @foreach($personal as $item)
 
                     <tr>
-                        <td> 1 </td>
+                        <td> {{$item->dni}} </td>
                         <td> {{$item->nombre}} </td>
-                        <td> Otto </td>
-                        <td> makr124 </td>
+                        <td> {{$item->segundo_nombre}}</td>
+                        <td> {{$item->apellido_paterno}}</td>
+                        <td> {{$item->apellido_materno}}</td>
+                        <td> {{$item->fecha_nacimiento}}</td>
+                        <td> {{$item->sede}}</td>
+                        <td> {{$item->gerencia}}</td>
+
+
                         <td>
-                            <span class="label label-sm label-success"> Approved </span>
+                            <span class="label label-sm label-success"> Sin Contrato </span>
                         </td>
 
                         <td style="font-size: smaller">
