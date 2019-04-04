@@ -1,4 +1,11 @@
 <?php
+
+
+Route::resource('recursos', 'Recursos\RecursosController');
+
+
+
+
 Route::get('aprobacion_caja/{aprobacion_code}', [
     'as' => 'caja.aprobacionget', 'uses' => 'Caja\CajaController@aprobacion'
 ]);
