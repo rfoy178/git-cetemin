@@ -17,8 +17,7 @@ class RecursosController extends Controller
     {
 
 
-        $personal=Personal::paginate(20);
-
+        $personal=Personal::orderBy("apellido_paterno")->orderBy("apellido_materno")->paginate(20);
 
         return view("recursos.index",compact("personal"));
 

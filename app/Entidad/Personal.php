@@ -1,10 +1,10 @@
 <?php
 namespace App\Entidad;
- use App\Entidad\Entity;
+use App\Entidad\Entity;
 
  class Personal extends Entity
 {
-    protected $table = 'personal';
+    protected $table = 'personal_1';
     protected $primaryKey='dni';
      public  $incrementing =false;
 

@@ -1,7 +1,7 @@
 <?php
 
 
-Route::resource('recursos', 'Recursos\RecursosController');
+
 
 
 
@@ -476,6 +476,9 @@ Route::group(['middleware' => 'auth'], function () {
 
 });
 Auth::routes();
+
+Route::resource('recursos', 'Recursos\RecursosController');
+
 Route::get('logout', [
     'as' => 'logout', 'uses' => '\App\Http\Controllers\Auth\LoginController@logout'
 ]);
